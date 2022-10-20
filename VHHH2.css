@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'PTMono';
+    src: url('fonts/PTMono-Regular.ttf');
+}
+body { background-color:#343a40; }
+.table { width:90%; }
+.table td, .table th { padding:0.1rem 0.5rem; border:0px; } 
+img.callsign { height:24px; margin-right:5px; display:none; }
+table > thead > tr { color:#ff9800; font-family:PTMono; }
+table > tbody > tr { color:#fff; font-family:PTMono; }
+table > tbody > tr > td:nth-child(1) { }
+table > tbody > tr:nth-child(odd) {  }
+table > tbody > tr:nth-child(even) { /* background-color:#00f; */ }
+table.en .zh { display:none; }
+table.zh .en { display:none; }
+
+table.zh > tbody > tr { font-family:PTMono; }
+
+td.arrived { color:#ff0000; font-weight:600; }
+td.departing { color:#a2da0a; font-weight:600; }
+td.finalcall{color:#ff0000;font-size:20px;font-weight:600;}
+td.boarding { color:#fcff2f; font-weight:600; }
+div.time { display:inline-block; float:right; }
+thead > tr > th { background-color:#77f9fb; color:#000; text-align:center; }
+thead > tr > th:first-child { width:20%;  }
+thead > tr > th:nth-child(2) { width:20%;  }
+thead > tr > th:nth-child(3) { width:35%; }
+thead > tr > th:last-child { width:25%; }
+tbody > tr > td > div { height:1.5em; overflow-x:hidden; overflow-y:hidden;  }
+
+.crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}

@@ -1,0 +1,20 @@
+body { background-color:#000000; }
+table { width:100%; }
+.table td, .table th {font-size: 20px; padding:0.1rem 0.5rem; border:0px;font-family: Microsoft JhengHei; font-weight:600;} 
+img.callsign { height: 24px; margin-right:5px; }
+table > thead > tr { color:#ff9800; font-family:Arial; }
+table > tbody > tr { color:#fff; font-family:Arial; }
+table > tbody > tr > td:nth-child(1) { color: #ffeb3b; }
+table > tbody > tr:nth-child(odd) {  }
+table > tbody > tr:nth-child(even) { background: #00002b; }
+table.en .zh { display:none;}
+table.zh .en { display:none;}
+td.arrived { color:#ff0000;font-size: 20px ;font-weight:600; }
+td.departing { color:#fbff00;font-size: 20px; font-weight:600; }
+td.delay {color:#ff0000;font-size:20px;font-weight:600;}
+td.departed { color:#1eff00;font-size: 20px; font-weight:600; }
+td.boarding { color:#fcff2f; font-weight:600; }
+td.finalcall {color:#ff0000;font-size:20px;font-weight:600;}
+div.time { display:inline-block; float:right; }
+thead > tr > th:first-child
+thead > tr > th:last-child 

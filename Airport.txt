@@ -306,6 +306,7 @@ UUBW,茹科夫斯基,Zhukovsky
 UUDD,莫斯科/多莫傑多沃,Moscow/DME
 UUEE,莫斯科,Moscow
 UKBB,基輔,Kiev
+UWKD,喀山,Kazan
 ULLI,聖彼得堡,St.Petersburg
 UNKL,拉斯諾亞爾斯克,Krasnoyarsk
 UNNT,新西伯利亞,Novosibirsk
